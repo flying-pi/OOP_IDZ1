@@ -22,7 +22,6 @@ int main() {
     char shr[10] = "\n>>      ";
     char inv[10] = "INV      ";
     unsigned short operation, V1, V2, V3;
-    std::cout << "test ::"<<(1&3)<<"|";
     instruction();
     do{
         printf("\n\nОперация? ");
