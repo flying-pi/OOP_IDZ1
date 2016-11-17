@@ -6,7 +6,9 @@
 #include <stdio.h>
 #include <locale>
 
-void otvet(const char *,  unsigned int*,  unsigned int*,  unsigned int* = 0);
+const unsigned int zero = 0;
+
+void otvet(const char *, const unsigned int*, const unsigned int*, const  unsigned int* = &zero);
 
 void instruction();
 

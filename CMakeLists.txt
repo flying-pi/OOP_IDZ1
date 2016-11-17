@@ -17,3 +17,6 @@ add_executable(IDZ1.4.1 ${SOURCE_FILES})
 
 set(SOURCE_FILES task4/item2/LOGICA32.cpp task4/item2/INSTRUCT.cpp task4/item2/OTVET32.cpp task4/item2/GETBIN32.cpp)
 add_executable(IDZ1.4.2 ${SOURCE_FILES})
+
+set(SOURCE_FILES task4/item3/LOGICA32.cpp task4/item3/INSTRUCT.cpp task4/item3/OTVET32.cpp task4/item3/GETBIN32.cpp)
+add_executable(IDZ1.4.3 ${SOURCE_FILES})

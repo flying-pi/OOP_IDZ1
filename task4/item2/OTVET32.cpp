@@ -5,12 +5,12 @@
 #include <stdio.h>
 #include <string>
 
-void getbin(unsigned int*);
+void getbin(const unsigned int*);
 
 void otvet(const char *str,
-           unsigned int *val3,
-           unsigned int *val1,
-           unsigned int *val2) {
+           const unsigned int *val3,
+           const unsigned int *val1,
+           const unsigned int *val2) {
     char *tempstr = "INV      ";
     printf("ОТВЕТ:\n");
     if (strcmp(str, tempstr) != 0) {
