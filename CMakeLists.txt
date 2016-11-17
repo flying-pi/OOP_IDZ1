@@ -8,3 +8,6 @@ add_executable(IDZ1 ${SOURCE_FILES})
 
 set(SOURCE_FILES  task2/LOGICA16.cpp task2/INSTRUCT.cpp task2/OTVET16.cpp task2/GETBIN16.cpp)
 add_executable(IDZ1.2 ${SOURCE_FILES})
+
+set(SOURCE_FILES  task3/LOGICA16.cpp )
+add_executable(IDZ1.3 ${SOURCE_FILES})
