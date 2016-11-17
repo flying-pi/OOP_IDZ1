@@ -7,10 +7,10 @@
 
 void getbin(unsigned int);
 
-void otvet(const char *str,
-           const unsigned int &val3,
-           const unsigned int &val1,
-           const unsigned int &val2) {
+void otvet(const char str[],
+           const unsigned int val3,
+           const unsigned int val1,
+           const unsigned int val2) {
     char *tempstr = "INV      ";
     printf("ОТВЕТ:\n");
     if (strcmp(str, tempstr) != 0) {
