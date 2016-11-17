@@ -7,4 +7,5 @@ void getbin(unsigned int n,char *out){
         out[i] = n&0x80000000?'1':'0';
         n=n<<1;
     }
+    out[32]='\0';
 }

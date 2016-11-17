@@ -29,6 +29,7 @@ void IPrinter::getbin(unsigned int n, char *out) {
         out[i] = n & 0x80000000 ? '1' : '0';
         n = n << 1;
     }
+    out[32] = '\0';
 }
 
 void
@@ -38,7 +39,7 @@ IPrinter::printResult(const char *str, const unsigned int &val3, const unsigned 
         return;
 
     char *tempstr = "INV      ";
-    char *binaryValue = new char[32];
+    char *binaryValue = new char[33];
     (*out) << ("ОТВЕТ:\n");
     if (strcmp(str, tempstr) != 0) {
         (*out) << setfill(' ') << setw(18) << dec << val1 << " 0x" << setfill('0') << setw(8) << hex << val1 << " ";

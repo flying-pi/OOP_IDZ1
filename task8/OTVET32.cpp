@@ -19,7 +19,7 @@ void otvet(const char *str,
     char *tempstr = "INV      ";
 
     ofstream out("./out.txt",std::ofstream::out | std::ofstream::app);
-    char *binaryValue = new char[32];
+    char *binaryValue = new char[33];
     out << ("ОТВЕТ:\n");
     if (strcmp(str, tempstr) != 0) {
         out << setfill(' ')<<setw(18) << dec << val1 << " 0x"<<setfill('0')<<setw(8)<<hex<<val1<< " ";

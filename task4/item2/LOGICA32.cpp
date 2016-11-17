@@ -14,7 +14,7 @@ void instruction();
 
 
 int main() {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, ".1251");
     char and[10] = "\nAND     ";
     char or[10] = "\nOR      ";
     char xor[10] = "\nXOR     ";

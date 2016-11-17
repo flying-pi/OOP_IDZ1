@@ -15,7 +15,7 @@ void otvet(const char *str,
     char *tempstr = "INV      ";
     FILE *f;
     f = fopen("./out.txt", "a");
-    char *binaryValue = new char[32];
+    char *binaryValue = new char[33];
     if (f == NULL)
     {
         printf("Error opening file!\n");

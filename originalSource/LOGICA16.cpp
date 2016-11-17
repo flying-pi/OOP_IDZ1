@@ -12,7 +12,7 @@ void instruction();
 
 
 int main() {
-    setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, ".1251");
     //согласно стандарту and, or и xor являються ключевыми словами.
     // Что бы отключить нужно собирать программу с флагом -fno-operator-names
     char and[10] = "\nAND     ";
