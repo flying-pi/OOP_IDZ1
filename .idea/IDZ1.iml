@@ -44,6 +44,13 @@
       <sourceFolder url="file://$MODULE_DIR$/originalSource/INSTRUCT.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/originalSource/LOGICA16.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/LOGIKA.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/Main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/OutPrinter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/OutPrinter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/LOGIKA.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/Task.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task9/Task.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

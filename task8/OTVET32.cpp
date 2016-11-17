@@ -25,7 +25,7 @@ void otvet(const char *str,
         out << setfill(' ')<<setw(18) << dec << val1 << " 0x"<<setfill('0')<<setw(8)<<hex<<val1<< " ";
         getbin(val1,binaryValue);
         out <<binaryValue;
-        out << str << setfill(' ')<<setw(10) << dec << val1 << " 0x"<<setfill('0')<<setw(8)<<hex<<val1<< " ";
+        out << str << setfill(' ')<<setw(10) << dec << val2 << " 0x"<<setfill('0')<<setw(8)<<hex<<val2<< " ";
         getbin(val2,binaryValue);
         out <<binaryValue;
         out << "\n===================================\n";

@@ -3,7 +3,7 @@ project(IDZ1)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -fno-operator-names")
 
-set(SOURCE_FILES originalSource/LOGICA16.cpp originalSource/INSTRUCT.cpp originalSource/OTVET16.cpp originalSource/GETBIN16.cpp)
+set(SOURCE_FILES originalSource/LOGICA16.cpp originalSource/INSTRUCT.cpp originalSource/OTVET16.cpp originalSource/GETBIN16.cpp )
 add_executable(IDZ1 ${SOURCE_FILES})
 
 set(SOURCE_FILES task2/LOGICA32.cpp task2/INSTRUCT.cpp task2/OTVET32.cpp task2/GETBIN32.cpp)
@@ -35,3 +35,6 @@ add_executable(IDZ1.7 ${SOURCE_FILES})
 
 set(SOURCE_FILES task8/LOGICA32.cpp task8/INSTRUCT.cpp task8/OTVET32.cpp task8/GETBIN32.cpp)
 add_executable(IDZ1.8 ${SOURCE_FILES})
+
+set(SOURCE_FILES task9/Main.cpp task9/LOGIKA.cpp task9/LOGIKA.h task9/OutPrinter.h task9/Task.cpp task9/Task.h task9/OutPrinter.cpp)
+add_executable(IDZ1.9 ${SOURCE_FILES})
