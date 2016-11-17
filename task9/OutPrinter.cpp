@@ -78,7 +78,7 @@ public:
     FilePrinter() {
         isOpenFile = false;
         try {
-            file.open("/Users/yurabraiko/dev/c++/OOP/task1/IDZ1/out.txt", std::ofstream::out | std::ofstream::app);
+            file.open("./out.txt", std::ofstream::out | std::ofstream::app);
             isOpenFile = true;
         }
         catch (std::ios_base::failure &e) {
