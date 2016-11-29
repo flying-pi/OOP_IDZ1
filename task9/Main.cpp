@@ -1,6 +1,7 @@
 //
 // Created by Yura Braiko on 17.11.16.
 //
+#define _CRT_SECURE_NO_DEPRECATE
 
 #include <clocale>
 #include "LOGIKA.h"

@@ -1,6 +1,8 @@
 //
 // Created by Yura Braiko on 17.11.16.
 //
+#define _CRT_SECURE_NO_DEPRECATE
+
 
 #include <iostream>
 #include <stdio.h>
