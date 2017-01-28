@@ -57,7 +57,7 @@ public:
 class InversionTask : public ITask {
 public:
     virtual void calculate(IPrinter *printer) override {
-        return procces1ArgTask([printer](unsigned int V1) { printer->printResult(shr, ~V1, V1, 0); });
+        return procces1ArgTask([printer](unsigned int V1) { printer->printResult(inv, ~V1, V1, 0); });
     }
 };
 

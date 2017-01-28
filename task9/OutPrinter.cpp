@@ -40,7 +40,7 @@ IPrinter::printResult(const char *str, const unsigned int &val3, const unsigned 
 
     char *tempstr = "INV      ";
     char *binaryValue = new char[33];
-    (*out) << ("ÐžÐ¢Ð’Ð•Ð¢:\n");
+    (*out) << ("ÎÒÂÅÒ:\n");
     if (strcmp(str, tempstr) != 0) {
         (*out) << setfill(' ') << setw(18) << dec << val1 << " 0x" << setfill('0') << setw(8) << hex << val1 << " ";
         getbin(val1, binaryValue);
@@ -58,11 +58,13 @@ IPrinter::printResult(const char *str, const unsigned int &val3, const unsigned 
         getbin(val1, binaryValue);
         (*out) << binaryValue;
         (*out) << "\n===================================\n";
-        (*out) << setfill(' ') << setw(18) << dec << val3 << " 0x" << setfill('0') << setw(8) << hex << val3 << " ";
-        getbin(val1, binaryValue);
+        (*out) << str << setfill(' ') << setw(10) << dec << val3 << " 0x" << setfill('0') << setw(8) << hex << val3 << " ";
+        getbin(val3, binaryValue);
         (*out) << binaryValue;
     }
     (*out)<<"\n";
+
+    delete binaryValue;
 }
 
 
